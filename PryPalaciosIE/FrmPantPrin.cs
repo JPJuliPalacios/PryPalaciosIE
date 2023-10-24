@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace PryPalaciosIE
 {
-    public partial class frmInicio : Form
+    public partial class FrmPantPrin : Form
     {
-        public frmInicio()
+        public FrmPantPrin()
         {
             InitializeComponent();
-        }
-
-        private void btnIniciar_Click(object sender, EventArgs e)
-        {
-            FrmPantPrin frmPantPrin = new FrmPantPrin();
-            frmPantPrin.ShowDialog();
-            this.Close();
         }
     }
 }
