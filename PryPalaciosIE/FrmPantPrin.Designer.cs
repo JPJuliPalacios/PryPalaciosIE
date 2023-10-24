@@ -59,12 +59,14 @@
             this.mostrarProveedoresToolStripMenuItem.Name = "mostrarProveedoresToolStripMenuItem";
             this.mostrarProveedoresToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.mostrarProveedoresToolStripMenuItem.Text = "Mostrar Proveedores...";
+            this.mostrarProveedoresToolStripMenuItem.Click += new System.EventHandler(this.mostrarProveedoresToolStripMenuItem_Click);
             // 
             // cargarProveedoresToolStripMenuItem
             // 
             this.cargarProveedoresToolStripMenuItem.Name = "cargarProveedoresToolStripMenuItem";
             this.cargarProveedoresToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.cargarProveedoresToolStripMenuItem.Text = "Cargar Proveedores...";
+            this.cargarProveedoresToolStripMenuItem.Click += new System.EventHandler(this.cargarProveedoresToolStripMenuItem_Click);
             // 
             // FrmPantPrin
             // 

@@ -112,6 +112,11 @@ namespace PryPalaciosIE
         {
 
         }
+
+        private void lblMostrar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

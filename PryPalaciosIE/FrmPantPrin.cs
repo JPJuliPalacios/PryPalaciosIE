@@ -16,5 +16,19 @@ namespace PryPalaciosIE
         {
             InitializeComponent();
         }
+
+        private void mostrarProveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMostrarProv frmMostrarProv = new frmMostrarProv();
+            frmMostrarProv.ShowDialog();
+            this.Close();
+        }
+
+        private void cargarProveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCargaProv frmCargaProv = new frmCargaProv();
+            frmCargaProv.ShowDialog();
+            this.Close();
+        }
     }
 }

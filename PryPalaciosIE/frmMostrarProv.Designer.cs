@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Proveedores");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Proveedores");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMostrarProv));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.treeView1 = new System.Windows.Forms.TreeView();
@@ -69,10 +69,10 @@
             this.treeView1.ImageList = this.imageList1;
             this.treeView1.Location = new System.Drawing.Point(0, 0);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Proveedores";
-            treeNode1.Text = "Proveedores";
+            treeNode2.Name = "Proveedores";
+            treeNode2.Text = "Proveedores";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode1});
+            treeNode2});
             this.treeView1.SelectedImageIndex = 0;
             this.treeView1.Size = new System.Drawing.Size(163, 325);
             this.treeView1.TabIndex = 3;
@@ -83,8 +83,7 @@
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "carpeta.png");
-            this.imageList1.Images.SetKeyName(1, "Archivo.png");
+            this.imageList1.Images.SetKeyName(0, "file.png");
             // 
             // lblMostrar
             // 
@@ -94,6 +93,7 @@
             this.lblMostrar.Size = new System.Drawing.Size(325, 105);
             this.lblMostrar.TabIndex = 5;
             this.lblMostrar.Text = "label1";
+            this.lblMostrar.Click += new System.EventHandler(this.lblMostrar_Click);
             // 
             // listView1
             // 
